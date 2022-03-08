@@ -1,0 +1,47 @@
+<!-- 
+    element ispit je kompleksni tip koji se moze ponoviti vise puta
+    element predmet je tipa string sa atributom sifra (sifra predmeta)
+    element student je kompleksan tip koji sadrzi dva elementa tipa stringa (ime, prezime) i atribut JMBAG studenta
+    element ocjena je tipa integer koji je izmedu 2 i 5
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:complexType name="PredmetType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="sifra" type="xs:string" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="StudentType">
+        <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element name="ime" type="xs:string" />
+            <xs:element name="prezime" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="jmbag" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="IspitType">
+        <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element name="predmet" type="PredmetType" />
+            <xs:element name="student" type="StudentType" />
+            <xs:element name="ocjena">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="2" />
+                        <xs:maxInclusive value="5" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="ocjene">
+        <xs:complexType>
+            <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="ispit" type="IspitType" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

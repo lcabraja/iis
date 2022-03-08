@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../task-02/ocjene.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<ocjene>
+    <ispit>
+        <predmet sifra="IIS">
+            Interoperabilnost Informacijskih Sustava
+        </predmet>
+        <student jmbag="12345678901">
+            <ime>Luka</ime>
+            <prezime>Čabraja</prezime>
+        </student>
+        <ocjena>
+            5
+        </ocjena>
+    </ispit>
+</ocjene>

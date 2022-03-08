@@ -1,0 +1,25 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="sudType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="trgovački"/>
+            <xs:enumeration value="općinski"/>
+            <xs:enumeration value="županijski"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="spisType">
+        <xs:sequence>
+            <xs:element name="sud" type="sudType"/>
+            <xs:element name="oznaka" type="xs:string"/>
+            <xs:element name="datum" type="xs:date"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="spisi">
+        <xs:complexType>
+            <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="spis" type="spisType" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

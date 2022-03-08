@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="spisi.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<spisi>
+    <spis>
+        <sud>trgovački</sud>
+        <oznaka>Test</oznaka>
+        <datum>2022-03-28</datum>
+    </spis>
+</spisi>
