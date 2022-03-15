@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<otpremnice>
+    <otpremnica sifra="2">
+        <proizvod>magla</proizvod>
+        <kolicina>12</kolicina>
+        <datum>2022-03-15</datum>
+    </otpremnica>
+</otpremnice>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ocjene>
+    <ispit>
+        <predmet sifra="IIS">
+            Interoperabilnost Informacijskih Sustava
+        </predmet>
+        <student jmbag="12345678901">
+            <ime>Luka</ime>
+            <prezime>Čabraja</prezime>
+        </student>
+        <ocjena>
+            5
+        </ocjena>
+    </ispit>
+</ocjene>

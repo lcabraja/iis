@@ -1,0 +1,29 @@
+<element name="ocjene" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <oneOrMore>
+        <element name="ispit">
+            <element name="predmet">
+                <attribute name="sifra">
+                    <text/>
+                </attribute>
+                <text/>
+            </element>
+            <element name="student">
+                <attribute name="jmbag">
+                    <text/>
+                </attribute>
+                <element name="ime">
+                    <text/>
+                </element>
+                <element name="prezime">
+                    <text/>
+                </element>
+            </element>
+            <element name="ocjena">
+                <data type="integer"> 
+                    <param name="minInclusive">2</param>
+                    <param name="maxInclusive">5</param>
+                </data>
+            </element>
+        </element>
+    </oneOrMore>
+</element>

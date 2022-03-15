@@ -1,0 +1,20 @@
+<element name="otpremnice" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <oneOrMore>
+        <element name="otpremnica">
+            <attribute name="sifra">
+                <data type="integer"/>
+            </attribute>
+            <element name="proizvod">
+                <text/>
+            </element>
+            <element name="kolicina">
+                <data type="integer">
+                    <param name="minInclusive">1</param>
+                </data>
+            </element>
+            <element name="datum">
+                <data type="date"/>
+            </element>
+        </element>
+    </oneOrMore>
+</element>
