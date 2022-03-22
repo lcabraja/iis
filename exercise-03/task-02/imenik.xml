@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<imenik>
+	<osoba oib="12345678901">
+		<ime>Marko</ime>
+		<prezime>Marić</prezime>
+		<email>mmaric@mail.com</email>
+		<adresa>
+			<ulica>Moja ulica</ulica>
+			<kucniBroj>15</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>0912222333</telefon>
+		<kategorija>Poslovni</kategorija>
+	</osoba>
+	<osoba>
+		<ime>Ana</ime>
+		<prezime>Anić</prezime>
+		<email>aanic@mail.com</email>
+		<adresa>
+			<ulica>Neka ulica</ulica>
+			<kucniBroj>18</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>0982222456</telefon>
+		<kategorija>Privatni</kategorija>
+	</osoba>
+	<osoba oib="02345678911">
+		<ime>Pero</ime>
+		<prezime>Perić</prezime>
+		<email>pperic@mail.com</email>
+		<adresa>
+			<ulica>Zagrebačka</ulica>
+			<kucniBroj>41</kucniBroj>
+			<mjesto>Velika Gorica</mjesto>
+			<postanskiBroj>10410</postanskiBroj>
+		</adresa>
+		<telefon>0923652471</telefon>
+		<kategorija>Poslovni</kategorija>
+	</osoba>
+	<osoba oib="2587413694">
+		<ime>Ivan</ime>
+		<prezime>Ivić</prezime>
+		<email>iivic@mail.com</email>
+		<adresa>
+			<ulica>Ilica</ulica>
+			<kucniBroj>1428</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>0914563254</telefon>
+		<kategorija>Privatni</kategorija>
+	</osoba>
+	<osoba oib="45217895144">
+		<ime>Iva</ime>
+		<prezime>Ivić</prezime>
+		<email>iivic2@mail.com</email>
+		<adresa>
+			<ulica>Ilica</ulica>
+			<kucniBroj>1428</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>0982541998</telefon>
+		<kategorija>Privatni</kategorija>
+	</osoba>
+	<osoba oib="12345678901">
+		<ime>Andre</ime>
+		<prezime>Andric</prezime>
+		<email>iivic2@mail.com</email>
+		<adresa>
+			<ulica>Ilica</ulica>
+			<kucniBroj>1428</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>0982541998</telefon>
+		<kategorija>Privatni</kategorija>
+	</osoba>
+	<osoba oib="12345678901">
+		<ime>Test1</ime>
+		<prezime>Testtest</prezime>
+		<email>test@mail.com</email>
+		<adresa>
+			<ulica>Testna ulica</ulica>
+			<kucniBroj>0011</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>0982541998</telefon>
+		<kategorija>Privatni</kategorija>
+	</osoba>
+	<osoba oib="12345678901">
+		<ime>Test2</ime>
+		<prezime>Testtest</prezime>
+		<email>test@mail.com</email>
+		<adresa>
+			<ulica>Testna ulica</ulica>
+			<kucniBroj>0012</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>0982541998</telefon>
+		<kategorija>Privatni</kategorija>
+	</osoba>
+	<osoba oib="12345678901">
+		<ime>Test3</ime>
+		<prezime>Testtest</prezime>
+		<email>test@mail.com</email>
+		<adresa>
+			<ulica>Testna ulica</ulica>
+			<kucniBroj>0013</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>0982541998</telefon>
+		<kategorija>Privatni</kategorija>
+	</osoba>
+	<osoba oib="12345678901">
+		<ime>Test4</ime>
+		<prezime>Testtest</prezime>
+		<email>test@mail.com</email>
+		<adresa>
+			<ulica>Testna ulica</ulica>
+			<kucniBroj>0014</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>0982541998</telefon>
+		<kategorija>Privatni</kategorija>
+	</osoba>
+	<osoba oib="12345678901">
+		<ime>Test5</ime>
+		<prezime>Resttest</prezime>
+		<email>test@mail.com</email>
+		<adresa>
+			<ulica>Testna ulica</ulica>
+			<kucniBroj>0015</kucniBroj>
+			<mjesto>Split</mjesto>
+			<postanskiBroj>20</postanskiBroj>
+		</adresa>
+		<telefon>0982541998</telefon>
+		<kategorija>Privatni</kategorija>
+	</osoba>
+</imenik>
