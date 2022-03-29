@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imenikType>
+    <osoba oib="12345678901">
+        <ime>Luka</ime>
+        <prezime>Čabraja</prezime>
+        <email>lcabraja@racunarstvo.hr</email>
+        <adresa>
+            <ulica>Ilica</ulica>
+            <kucniBroj>242</kucniBroj>
+            <mjesto>Zagreb</mjesto>
+            <postanskiBroj>10000</postanskiBroj>
+        </adresa>
+        <telefon>0999999999</telefon>
+        <kategorija>Kul</kategorija>
+    </osoba>
+    <osoba oib="12345678901">
+        <ime>Luka</ime>
+        <prezime>Čabraja</prezime>
+        <email>lcabraja@racunarstvo.hr</email>
+        <adresa>
+            <ulica>Ilica</ulica>
+            <kucniBroj>242</kucniBroj>
+            <mjesto>Zagreb</mjesto>
+            <postanskiBroj>10000</postanskiBroj>
+        </adresa>
+        <telefon>0999999999</telefon>
+        <kategorija>Kul</kategorija>
+    </osoba>
+    <osoba oib="12345678901">
+        <ime>Luka</ime>
+        <prezime>Čabraja</prezime>
+        <email>lcabraja@racunarstvo.hr</email>
+        <adresa>
+            <ulica>Ilica</ulica>
+            <kucniBroj>242</kucniBroj>
+            <mjesto>Zagreb</mjesto>
+            <postanskiBroj>10000</postanskiBroj>
+        </adresa>
+        <telefon>0999999999</telefon>
+        <kategorija>Kul</kategorija>
+    </osoba>
+    <osoba oib="12345678901">
+        <ime>Luka</ime>
+        <prezime>Čabraja</prezime>
+        <email>lcabraja@racunarstvo.hr</email>
+        <adresa>
+            <ulica>Ilica</ulica>
+            <kucniBroj>242</kucniBroj>
+            <mjesto>Zagreb</mjesto>
+            <postanskiBroj>10000</postanskiBroj>
+        </adresa>
+        <telefon>0999999999</telefon>
+        <kategorija>Kul</kategorija>
+    </osoba>
+</imenikType>

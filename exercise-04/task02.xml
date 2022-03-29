@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<studentiType>
+    <student>
+        <ime>Ivan</ime>
+        <prezime>Markić</prezime>
+        <dolaznost>100</dolaznost>
+    </student>
+</studentiType>

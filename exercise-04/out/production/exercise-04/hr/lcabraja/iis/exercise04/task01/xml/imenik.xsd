@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="imenik" type="imenikType"/>
+  <xs:complexType name="adresaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="ulica"/>
+      <xs:element type="xs:string" name="kucniBroj"/>
+      <xs:element type="xs:string" name="mjesto"/>
+      <xs:element type="xs:integer" name="postanskiBroj"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="osobaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="ime"/>
+      <xs:element type="xs:string" name="prezime"/>
+      <xs:element type="xs:string" name="email"/>
+      <xs:element type="adresaType" name="adresa"/>
+      <xs:element type="xs:string" name="telefon"/>
+      <xs:element type="xs:string" name="kategorija"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="oib" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="imenikType">
+    <xs:sequence>
+      <xs:element type="osobaType" name="osoba" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
