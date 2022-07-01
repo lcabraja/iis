@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form action="~/Home/Index" method="post">
+    Please enter the first number:
+    <input id="num1" type="number" name="num1" class="form-control" required />
+    Please enter the second number:
+    <input id="num2" type="number" name="num2" class="form-control" required />
+    
+    <input type="submit" id="submit" value="submit" class="btn btn-primary" />
+    Result = @ViewBag.result
+</form>
